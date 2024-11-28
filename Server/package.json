@@ -1,0 +1,25 @@
+{
+  "name": "video-app-server",
+  "version": "1.0.0",
+  "description": "A Real-Time Video Chat for Mobile Devices project focuses on developing a seamless, high-quality video communication platform optimized for mobile devices. It integrates low-latency streaming, adaptive bitrate control, and efficient bandwidth management to ensure smooth video and audio interactions. The solution emphasizes cross-platform compatibility, secure connections with end-to-end encryption, and user-friendly interfaces for a reliable and engaging video chat experience on the go.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DeepBlue-dot/Video-App.git"
+  },
+  "author": "yeabsira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepBlue-dot/Video-App/issues"
+  },
+  "homepage": "https://github.com/DeepBlue-dot/Video-App#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "socket.io": "^4.8.1"
+  }
+}
